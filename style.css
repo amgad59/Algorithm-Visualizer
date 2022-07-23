@@ -1,0 +1,42 @@
+
+html,body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: #664AFF;
+}
+.slider_Box{
+    background: white;
+    border-radius: 7px;
+    padding: 10px 35px 10px 15px;
+    display: flex;
+    align-items: center;
+}
+.slider_Box .slider{
+    height: 30px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+}
+.slider_Box .slider input{
+    height: 100%;
+    width: 100%;
+}
+.slider_Box .value{
+    position: absolute;
+    margin: 11%;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #664AFF;
+    width: 10%;
+    text-align: center;
+}
+.numbers_container{
+    position: absolute;
+    height: 3%;
+border: 1px solid red;
+margin: 0 auto;
+}
